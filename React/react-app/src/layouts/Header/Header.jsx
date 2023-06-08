@@ -23,10 +23,7 @@ const Header = () => {
                         <FontAwesomeIcon icon={faChevronLeft} />
                     </button> 
                 }
-            <h4>
-                
-                Choose Service
-            </h4>
+            <h4> Choose Service </h4>
             <p>Step {step}</p>
         </div>
     )
