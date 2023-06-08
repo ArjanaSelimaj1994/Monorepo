@@ -2,7 +2,8 @@ import { NavLink } from 'react-router-dom'
 import  styles from './Option.module.scss'
 import { useDispatch } from 'react-redux'
 import { setStep } from '../../store/slices/stepSlice'
-
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Option = ({option}) => {
 
@@ -15,7 +16,9 @@ const Option = ({option}) => {
     return (
         <div className={styles.option}>
            <NavLink to={`selection/${option.id}`} onClick={handleOptionClick}>
-                {option.name}
+                <img src={option.url}/>
+                <p>{option.name}</p>
+                <FontAwesomeIcon icon={faChevronRight}/>
             </NavLink>
         </div>
     )

@@ -1,23 +1,23 @@
 const DUMMYOPTIONS = [
     {
         id: 1,
-        url: './assets/images/dermal-fillers.jpg',
-        name: 'molla'
+        url: 'images/download.jpeg',
+        name: 'Anti Wrinkle Treatment'
     },
     {   
         id: 2,
-        url: './assets/images/dermal-fillers.jpg',
-        name: 'dardha'
+        url: 'images/dermal-fillers.jpg',
+        name: 'Dermal Fillers'
     },
     {   
         id: 3,
-        url: './assets/images/dermal-fillers.jpg',
-        name: 'qershia'
+        url: ' images/download1.jpeg',
+        name: 'Secret Rf'
     },
     {   
         id: 4,
-        url: './assets/images/dermal-fillers.jpg',
-        name: 'kajsia'
+        url: 'images/images.jpeg',
+        name: 'Harmony Ca'
     }
 ]
 

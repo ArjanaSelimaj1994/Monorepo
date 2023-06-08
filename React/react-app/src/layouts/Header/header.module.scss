@@ -4,9 +4,14 @@
     align-items: center;
     text-align: center;
     background-color: white;
-    padding: 2rem 0
+    padding: 2rem 0;
 
-    button {
-        align-items: left;
+    
+    .backButton {
+        background-color: white;
+        border: none;
+        position: absolute;
+        left: 3%
     }
+
 }

@@ -1,10 +1,10 @@
 import { Container } from 'react-bootstrap'
  
-const OptionSelected = (props) => {
+const OptionSelected = ({option}) => {
 
     return (
         <Container>
-            <h4>{props.option.name}</h4>
+            <h4>{option.name}</h4>
         </Container>
     )
 
